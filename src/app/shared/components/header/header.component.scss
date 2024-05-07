@@ -1,0 +1,11 @@
+@import '../../../../assets/constants.scss';
+
+.header {
+    background-color: $primary-color;
+    color: $text-color-primary;
+    padding: 0.5rem;
+
+    .header__title {
+        font-size: 1.5rem;
+    }
+}
