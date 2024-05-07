@@ -1,0 +1,7 @@
+[user]
+  email = jeremiah.smith@argano.com
+    
+
+  
+[url "github.com-jeremiahs1079-argano"]
+  insteadOf = git@github.com
