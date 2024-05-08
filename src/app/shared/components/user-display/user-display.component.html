@@ -1,10 +1,17 @@
 <div class="container">
-    <div class="row justify-content-end">
-        <div class="col-4">
-            {{myUser.firstName}}
-        </div>
-        <div class="col-4">
-            {{myUser.lastName}}
-        </div>
+  <div class="row justify-content-end">
+    <div class="col">
+      <img [src]="myUser.imageUrl" alt="" />
     </div>
+    <div class="col">
+      <div class="row">
+        <div class="col-6">
+          {{ myUser.firstName }}
+        </div>
+        <div class="col-6">
+          {{ myUser.lastName }}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -12,6 +12,7 @@ export class UserService {
     lastName: 'User',
     userName: 'testuser2525',
     email: 'testuser2525@test.com',
+    imageUrl: 'assets/male_user.png'
   };
 
   userBS$: BehaviorSubject<User>;

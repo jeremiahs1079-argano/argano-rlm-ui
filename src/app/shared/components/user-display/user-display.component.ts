@@ -15,6 +15,7 @@ export class UserDisplayComponent implements OnInit {
     lastName: '',
     userName: '',
     email: '',
+    imageUrl: '',
   };
   
   userSubscription: Subscription;
