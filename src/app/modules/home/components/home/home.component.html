@@ -1,0 +1,23 @@
+<div class="container">
+  <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <ng-container *ngFor="let cat of categories">
+          <app-carousel-card [category]="cat"></app-carousel-card>
+        </ng-container>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row">
+      <app-category-nav></app-category-nav>
+    </div>
+    <div class="row">
+      <app-category-carousel></app-category-carousel>
+    </div>
+</div>

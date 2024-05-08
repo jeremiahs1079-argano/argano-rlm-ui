@@ -1,0 +1,23 @@
+[
+  {
+    "catalogId": "0ZSao0000001jb2GAA",
+    "childCategories": [],
+    "customFields": {},
+    "id": "0ZGao0000001i2DGAQ",
+    "name": "Laptops"
+  },
+  {
+    "catalogId": "0ZSao0000001jb2GAA",
+    "childCategories": [],
+    "customFields": {},
+    "id": "0ZGao0000001i2EGAQ",
+    "name": "Desktops"
+  },
+  {
+    "catalogId": "0ZSao0000001jb2GAA",
+    "childCategories": [],
+    "customFields": {},
+    "id": "0ZGao0000001i2FGAQ",
+    "name": "Accessories"
+  }
+]

@@ -6,6 +6,7 @@ import { RegisteredComponent } from './pages/registered/registered.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { GuestComponent } from './pages/guest/guest.component';
 import { SharedModule } from '../shared/shared.module';
+import { HomeModule } from '../modules/home/home.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     LayoutRoutingModule,
     SharedModule,
+    HomeModule
   ]
 })
 export class LayoutModule { }
