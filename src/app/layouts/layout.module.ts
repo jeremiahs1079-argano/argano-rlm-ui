@@ -7,7 +7,7 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { GuestComponent } from './pages/guest/guest.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeModule } from '../modules/home/home.module';
-
+import { ConfigureModule } from '../modules/configure/configure.module';
 
 @NgModule({
   declarations: [RegisteredComponent, AdminComponent, GuestComponent],
@@ -15,7 +15,8 @@ import { HomeModule } from '../modules/home/home.module';
     CommonModule,
     LayoutRoutingModule,
     SharedModule,
-    HomeModule
-  ]
+    HomeModule,
+    ConfigureModule,
+  ],
 })
-export class LayoutModule { }
+export class LayoutModule {}
