@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeaderComponent } from './components/header/header.component';
 import { UserDisplayComponent } from './components/user-display/user-display.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -11,13 +12,15 @@ import { UserDisplayComponent } from './components/user-display/user-display.com
   declarations: [
     NotFoundComponent,
     HeaderComponent,
-    UserDisplayComponent
+    UserDisplayComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }

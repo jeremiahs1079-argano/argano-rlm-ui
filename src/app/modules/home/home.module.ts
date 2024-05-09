@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CarouselCardComponent } from './components/carousel-card/carousel-card.component';
 import { CategoryNavComponent } from './components/category-nav/category-nav.component';
 import { CategoryCarouselComponent } from './components/category-carousel/category-carousel.component';
+import { HomeRoutingModule } from './home-routing.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CategoryCarouselComponent } from './components/category-carousel/catego
     CategoryCarouselComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeRoutingModule
   ],
   exports: [
     HomeComponent
