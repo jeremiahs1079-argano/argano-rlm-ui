@@ -1,0 +1,166 @@
+{
+  "additionalFields": [],
+  "attributeCategories": [
+    {
+      "code": "DIS",
+      "name": "Display",
+      "records": [
+        {
+          "attributeCategoryId": "0v3ao00000005uFAAQ",
+          "attributeNameOverride": "Display",
+          "attributePickList": {
+            "id": "0v5ao0000000tSjAAI",
+            "values": [
+              {
+                "code": "1080p Built-in Display",
+                "displayValue": "1080p Built-in Display",
+                "id": "0v6ao0000000jMvAAI",
+                "isBooleanValue": false,
+                "name": "1080p Built-in Display",
+                "sequence": 1,
+                "textValue": "1080p Built-in Display"
+              },
+              {
+                "code": "4k Built-in Display",
+                "displayValue": "4k Built-in Display",
+                "id": "0v6ao0000000jMwAAI",
+                "isBooleanValue": false,
+                "name": "4k Built-in Display",
+                "sequence": 3,
+                "textValue": "4k Built-in Display"
+              },
+              {
+                "code": "2k Built-in Display",
+                "displayValue": "2k Built-in Display",
+                "id": "0v6ao0000000jMxAAI",
+                "isBooleanValue": false,
+                "name": "2k Built-in Display",
+                "sequence": 2,
+                "textValue": "2k Built-in Display"
+              }
+            ]
+          },
+          "dataType": "PICKLIST",
+          "defaultValue": "1080p Built-in Display",
+          "hidden": false,
+          "id": "0tjao0000000jefAAA",
+          "isCloneable": false,
+          "isConfigurable": false,
+          "isPriceImpacting": true,
+          "isReadOnly": false,
+          "isRequired": true,
+          "label": "Display",
+          "name": "Display",
+          "status": "Active"
+        },
+        {
+          "attributeCategoryId": "0v3ao00000005uFAAQ",
+          "attributeNameOverride": "Screen Size",
+          "attributePickList": {
+            "id": "0v5ao0000000tSrAAI",
+            "values": [
+              {
+                "code": "24IN",
+                "displayValue": "24 Inch",
+                "id": "0v6ao0000000jNAAAY",
+                "isBooleanValue": false,
+                "name": "24 Inch",
+                "sequence": 3,
+                "textValue": "24 Inch"
+              },
+              {
+                "code": "13IN",
+                "displayValue": "13 Inch",
+                "id": "0v6ao0000000jNCAAY",
+                "isBooleanValue": false,
+                "name": "13 Inch",
+                "sequence": 1,
+                "textValue": "13 Inch"
+              },
+              {
+                "code": "15IN",
+                "displayValue": "15 Inch",
+                "id": "0v6ao0000000jNGAAY",
+                "isBooleanValue": false,
+                "name": "15 Inch",
+                "sequence": 2,
+                "textValue": "15 Inch"
+              },
+              {
+                "code": "27IN",
+                "displayValue": "27 Inch",
+                "id": "0v6ao0000000jNHAAY",
+                "isBooleanValue": false,
+                "name": "27 Inch",
+                "sequence": 4,
+                "textValue": "27 Inch"
+              }
+            ]
+          },
+          "dataType": "PICKLIST",
+          "defaultValue": "24 Inch",
+          "hidden": false,
+          "id": "0tjao0000000jenAAA",
+          "isCloneable": false,
+          "isConfigurable": false,
+          "isPriceImpacting": true,
+          "isReadOnly": false,
+          "isRequired": true,
+          "label": "Screen Size",
+          "name": "Screen Size",
+          "status": "Active"
+        }
+      ]
+    }
+  ],
+  "attributes": [],
+  "childProducts": [],
+  "configureDuringSale": "Allowed",
+  "description": "Table mounted high quality high resolution Monitor with 3 HDMI, 3 USB Ports",
+  "displayUrl": "https://images.philips.com/is/image/PhilipsConsumer/24M1N3200ZA_94-IMS-en_IN?$jpglarge$&amp;wid=960",
+  "id": "01tao000000dQsYAAU",
+  "isActive": true,
+  "isAssetizable": true,
+  "isSoldOnlyWithOtherProds": false,
+  "name": "Monitor",
+  "nodeType": "simpleProduct",
+  "prices": [
+    {
+      "isDefault": true,
+      "isSelected": false,
+      "price": 144.99,
+      "priceBookEntryId": "01uao000000ENG9AAO",
+      "priceBookId": "01sao000000QlsvAAC",
+      "pricingModel": {
+        "id": "0jPao00000008DhEAI",
+        "name": "One Time",
+        "pricingModelType": "OneTime"
+      }
+    }
+  ],
+  "productClassification": {
+    "id": "11Bao000002Ac4WEAS"
+  },
+  "productCode": "MO001",
+  "productComponentGroups": [],
+  "productSellingModelOptions": [
+    {
+      "id": "0iOao00000009eWEAQ",
+      "productId": "01tao000000dQsYAAU",
+      "productSellingModel": {
+        "id": "0jPao00000008DhEAI",
+        "name": "One Time",
+        "sellingModelType": "OneTime",
+        "status": "Active"
+      },
+      "productSellingModelId": "0jPao00000008DhEAI"
+    }
+  ],
+  "productSpecificationType": {
+    "name": "Commercial",
+    "productSpecificationRecordType": {}
+  },
+  "qualificationContext": {
+    "isQualified": true
+  }
+}
