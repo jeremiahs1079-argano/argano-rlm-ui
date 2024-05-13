@@ -4,6 +4,7 @@ import { NotFoundComponent } from '../shared/pages/not-found/not-found.component
 import { AdminComponent } from './pages/admin/admin.component';
 import { GuestComponent } from './pages/guest/guest.component';
 import { RegisteredComponent } from './pages/registered/registered.component';
+import { ConfigureComponent } from './pages/configure/configure.component';
 import { HomeComponent } from '../modules/home/components/home/home.component';
 
 const routes: Routes = [
@@ -26,16 +27,20 @@ const routes: Routes = [
   },
   {
     path: 'guest',
-    component: GuestComponent
+    component: GuestComponent,
+  },
+  {
+    path: 'configure',
+    component: ConfigureComponent,
   },
   {
     path: '**',
     component: NotFoundComponent,
-  }
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class LayoutRoutingModule { }
+export class LayoutRoutingModule {}
