@@ -9,7 +9,7 @@ import { CatagoryService } from '../../../../core/services/catagory/catagory.ser
 })
 export class HomeComponent implements OnInit {
 
-  categories: Category[] = [];
+  categories!: Category[];
 
   constructor(private categoryService: CatagoryService) {}
 

@@ -14,8 +14,7 @@ import { HomeModule } from '../modules/home/home.module';
   imports: [
     CommonModule,
     LayoutRoutingModule,
-    SharedModule,
-    HomeModule
+    SharedModule
   ]
 })
 export class LayoutModule { }
