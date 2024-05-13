@@ -24,5 +24,6 @@ import { ConfigureModule } from '../modules/configure/configure.module';
     HomeModule,
     ConfigureModule,
   ],
+
 })
 export class LayoutModule {}

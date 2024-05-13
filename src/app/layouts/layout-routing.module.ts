@@ -5,11 +5,21 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { GuestComponent } from './pages/guest/guest.component';
 import { RegisteredComponent } from './pages/registered/registered.component';
 import { ConfigureComponent } from './pages/configure/configure.component';
+import { HomeComponent } from '../modules/home/components/home/home.component';
 
 const routes: Routes = [
   {
     path: '',
     component: RegisteredComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () =>
+          import('../modules/home/home.module').then(
+            (homeModule) => homeModule.HomeModule
+          ),
+      }
+    ]
   },
   {
     path: 'admin',
